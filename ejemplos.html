@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<!--ajax api-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+
+	<!--JavaScript-->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  	<script type="text/javascript" src="IrArriba/irArriba.js"></script>
+
+	<title>Laboratorio de Consulta Estructurado</title>
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid row">
+			<div class="col-md-10">
+				<h1>
+					<img src="LogoSQL.png" width="150">
+					Laboratorio de Consulta Estructurado
+				</h1>
+			</div>
+		</div>
+	</header>
+
+	<div class="container-fluid">
+		<section class="main row">
+			<article class="col-xs-12 col-sm-6 col-md-6">
+				<p>
+					<h3>Laboratorio SQL</h3>
+					Ingresa al sistema para poder hacer uso del laboratorio SQL.
+				</p>
+			</article>
+			<aside class="col-xs-12 col-sm-6 col-md-6">
+				<p>
+					<h3>Ingreso de Usuario</h3>
+
+					<div id="formaulario2" class="col-md-6">
+						<form class="col-xs-12 col-sm-12 col-md-6">
+							<div class="form-group">
+								<label>Usuario</label>
+								<input>
+							</div>
+							<div class="form-group">
+    							<label>Clave</label>
+   								<input>
+  							</div>
+  							<button class="btn btn-primary">Ingresar</button>
+						</form>
+					</div>	
+				</p>
+			</aside>
+		</section>
+	</div>
+
+	<span class="ir-arriba icon-arrow-up2"></span>
+
+	<nav class="navbar navbar-light" style="background-color: #bdbdbd;">
+ 		<!-- Navbar content -->
+ 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  			<a class="navbar-brand" href="#"></a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   				<span class="navbar-toggler-icon"></span>
+  			</button>
+
+  			<div class="collapse navbar-collapse" id="navbarNav">
+   				<ul class="nav bar-nav">
+
+      			<li class="nav-item active">
+        			<a class="nav-link active" href="index.html" color:= black><strong>Ejercicios</strong><span class="sr-only">(current)</span></a>
+     				</li>
+
+      			<li class="nav-item">
+        			<a class="nav-link" href="ejemplos.html" color:= black><strong>Ejemplos</strong></a>
+      			</li>
+  			</div>
+		</nav>
+	</nav>
+
+	<div class="container-fluid">
+		<div class="main row">
+			<div id="divisionA" class="col-md-3">
+				<p>
+					<h3>Ejemplo de uso de las sentencias de creación de tablas</h3>
+				</p>
+			</div>
+			<div id="divisionB"class="col-md-3">
+				<p>
+					<h3>Ejemplo del uso de la sentencia de inserción de datos en la base de datos</h3>
+				</p>
+			</div>
+
+			<div class="clearfix visile-sm-block"></div>
+
+			<div id="divisionA" class="col-md-3">
+				<p>
+					<h3>Ejemplo de uso de las consultas anidadas con la sentencia IN</h3>
+				</p>
+			</div>
+			<div id="divisionB" class="col-md-3">
+				<p>
+					<h3>Ejemplo de uso de sentencias DML en la base de datos MySQL</h3>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<section class="main row">
+			<article class="col-xs-12 col-sm-6 col-md-6">
+				<p>
+					<h3>Datos del Estudiante</h3>
+					<p><strong>Nombre:</strong> Brayan Alexis Rincón Mendoza</p>
+					<p><strong>Código:</strong> 1151136</p>
+					<p><strong>Plan de estudios:</strong> Ingeniería de Sistemas</p>
+					<p><strong>Semestre:</strong> 2019-II</p>
+				</p>
+			</article>
+			<aside class="col-xs-12 col-sm-6 col-md-6">
+				<p>
+					<h3>Resumen del Curso</h3>
+					<p>A la fecha, en el curso de Programación Web, se ha visto y dado a conocer sobre las tecnologías que componen el desarrollo de aplicaciones web, como HTML, CSS y JavaScript. Lenguajes fundamentales para el desarrollo. Así mismo, se ha explorado los roles que pueden devengar los desarrolladores web, el frontend y el backend. El primero, se ocupa de la experiencia de usuario y la forma en la que este pueda relacionarse con la aplicación. El segundo, el backend, se ocupa de la funcionalidad y el comportamiento que debe tener el sitio web en lo operativo. La forma en la que almacena los datos, la arquitectura, entre otros tópicos.</p>
+				</p>
+			</aside>
+		</section>
+	</div>
+</body>
+
+<footer>
+	<p></p>
+	<strong>2019 - Todos los derechos reservados</strong>
+	<p></p>
+</footer>
+
+</html>

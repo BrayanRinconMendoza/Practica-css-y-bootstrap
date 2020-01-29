@@ -1,0 +1,48 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+header {
+	color: white;
+	background-color: #2e7d32;
+	margin-top: 0;
+}
+
+.ir-arriba{
+  display: none;
+  padding: 20px;
+  background-color: #005005;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+}
+
+body{
+	margin: 0;
+  margin-bottom: 40px;
+	background-color: #bdbdbd;
+	padding-bottom: 70px;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #43a047;
+  color: black;
+  text-align: center;
+  height: 40px;
+}
+
+
+
